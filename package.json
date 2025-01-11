@@ -2,14 +2,22 @@
   "name": "koinx",
   "version": "1.0.0",
   "description": "this is the koinx backend task given by koinx for hiring backend intern",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "backend",
     "koinx"
   ],
   "author": "kruthik",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
