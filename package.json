@@ -1,0 +1,15 @@
+{
+  "name": "koinx",
+  "version": "1.0.0",
+  "description": "this is the koinx backend task given by koinx for hiring backend intern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "koinx"
+  ],
+  "author": "kruthik",
+  "license": "ISC"
+}
