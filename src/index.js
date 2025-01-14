@@ -11,7 +11,7 @@ connectDB()
     });
   })
   .then(async () => {
-    scheduleJob("*/1 * * * *", () => {
+    scheduleJob("0 */2 * * *", () => {
       console.log("Running background job...");
       updateStats();
     });
