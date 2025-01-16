@@ -8,10 +8,10 @@ async function getCryptoStats(req, res) {
     const {
       current_price: price,
       market_cap: marketCap,
-      price_change_24h: twentyFourHChange,
+      price_change_24h,
     } = data[0];
     // res.json(data);
-    res.json({ price, marketCap, "24hchange": twentyFourHChange });
+    res.json({ price, marketCap, "24hchange": price_change_24h });
   });
 }
 
